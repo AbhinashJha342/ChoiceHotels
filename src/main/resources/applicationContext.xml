@@ -5,11 +5,15 @@
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:tx="http://www.springframework.org/schema/tx"
        xsi:schemaLocation="http://www.springframework.org/schema/mvc
-      http://www.springframework.org/schema/beans"
+	  http://www.springframework.org/schema/mvc/spring-mvc.xsd
+      http://www.springframework.org/schema/beans
+      http://www.springframework.org/schema/beans/spring-beans.xsd
+      http://www.springframework.org/schema/context
+      http://www.springframework.org/schema/context/spring-context.xsd
+	  http://www.springframework.org/schema/tx
+	  http://www.springframework.org/schema/tx/spring-tx.xsd"
        default-autowire="byName">
-
     <mvc:resources mapping="/library/**" location="/library/" />
-
     <!-- Scans within the base package of the application for @Components to
     configure as beans -->
     <!-- @Controller, @Service, @Configuration, etc. -->
@@ -18,5 +22,4 @@
     <!-- Enables the Spring MVC @Controller programming model -->
     <mvc:annotation-driven></mvc:annotation-driven>
     <tx:annotation-driven />
-
 </beans>

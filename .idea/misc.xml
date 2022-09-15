@@ -12,6 +12,7 @@
     </option>
   </component>
   <component name="ProjectResources">
+    <resource url="http://www.springframework.org" location="$PROJECT_DIR$" />
     <resource url="http://www.springframework.org/schema/tx" location="$PROJECT_DIR$" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="liberica-1.8" project-jdk-type="JavaSDK">
