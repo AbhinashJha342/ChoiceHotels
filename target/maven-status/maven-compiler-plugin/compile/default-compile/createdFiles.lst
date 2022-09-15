@@ -1,0 +1,8 @@
+com/org/choicehotels/web/schema/AddressLinesDTO.class
+com/org/choicehotels/web/schema/AddressLinesDTO$1.class
+com/org/choicehotels/web/schema/AddressLinesDTO$Builder.class
+com/org/choicehotels/ChoiceHotelsRestApp.class
+com/org/choicehotels/web/schema/AddressDTO.class
+com/org/choicehotels/web/schema/HotelDetailsDTO.class
+com/org/choicehotels/web/schema/State.class
+com/org/choicehotels/web/HotelController.class
