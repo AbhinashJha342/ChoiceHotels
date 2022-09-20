@@ -1,5 +1,6 @@
 /Users/abhinash.kumar/Documents/local-projects/ChoiceHotels-rest-spring5/src/main/java/com/org/choicehotels/web/schema/State.java
 /Users/abhinash.kumar/Documents/local-projects/ChoiceHotels-rest-spring5/src/main/java/com/org/choicehotels/web/HotelController.java
+/Users/abhinash.kumar/Documents/local-projects/ChoiceHotels-rest-spring5/src/main/java/com/org/choicehotels/web/schema/CatalogueType.java
 /Users/abhinash.kumar/Documents/local-projects/ChoiceHotels-rest-spring5/src/main/java/com/org/choicehotels/web/schema/HotelDetailsDTO.java
 /Users/abhinash.kumar/Documents/local-projects/ChoiceHotels-rest-spring5/src/main/java/com/org/choicehotels/web/schema/AddressDTO.java
 /Users/abhinash.kumar/Documents/local-projects/ChoiceHotels-rest-spring5/src/main/java/com/org/choicehotels/web/schema/AddressLinesDTO.java

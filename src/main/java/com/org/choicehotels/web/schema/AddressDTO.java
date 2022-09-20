@@ -1,5 +1,10 @@
 package com.org.choicehotels.web.schema;
 
+import com.org.choicehotels.domain.Address;
+import com.org.choicehotels.domain.AddressLines;
+
+import java.util.Optional;
+
 public class AddressDTO {
 
     private final String city;
@@ -32,5 +37,15 @@ public class AddressDTO {
 
     public AddressLinesDTO getAddressLinesDTO() {
         return addressLinesDTO;
+    }
+
+    public static Address to(AddressDTO addressDTO){
+
+        AddressLines addressLines =
+                Optional.ofNullable(addressDTO.getAddressLinesDTO())
+                        .filter(addressLinesDTO1 -> addressLinesDTO1!=null)
+                        .map(addressLinesDTO1 -> new AddressLines(addressLinesDTO1.getExterior(), addressLinesDTO1.getStreet()))
+                        .get();
+        return new Address(addressDTO.getCity(), addressDTO.getState(), addressDTO.getPostalCode(), addressLines);
     }
 }
